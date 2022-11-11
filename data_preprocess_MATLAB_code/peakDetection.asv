@@ -1,0 +1,11 @@
+LoadPath='C:\RFMG\Zijing\4_point_data1\feat_all\';
+Feat_ver='filt_0.5_7';
+load([LoadPath,'Data_all',Feat_ver,'.mat'])
+
+
+
+Data=feature_all(:,31,12);
+fs=500;
+t = (0:(length(Data)-1))/fs;
+Pairs=['NPeaks ',6,'MinPeakHeight',]
+findpeaks(Data,t,'Annotate','extents','WidthReference','halfheight',Pairs)
