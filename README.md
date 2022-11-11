@@ -13,6 +13,7 @@ We verified RMG experimentally by a forearm wearable sensor for 23 hand gesture 
 
 <img src='/images/RMG/sigProc.png'><br/>  
 We first converted the radio sensing outputs to the time-frequency spectrogram, and then employed the vision transformer (ViT) deep learning network as the classification model, which can recognize 23 gestures with an average accuracy up to 99% on 8 subjects. By transfer learning, high adaptivity to user difference and sensor variation were achieved at an average accuracy up to 97%. 
+For Vision Tranformer, here is the [link](https://github.com/lucidrains/vit-pytorch)
 
 <img src='/images/RMG/timeLag.png'><br/> 
 Waveforms recorded from RMG, sEMG for fast finger motion of 150 beats/minute.
