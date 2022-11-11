@@ -2,6 +2,17 @@
 title: "Hand gesture recognition system by non-invasive muscle monitoring sensor "
 
 ---
+Code note: For matlab_code_new:
+1. CreatFolder.m: create folders to save figures, mat files 
+
+2. Feature_case_gen_Air_draw_RMG.m: main script for reading data from
+labview. Filer, segment, visualize data, read in sequence of different cases
+
+3. gen_featureAll.m: combine all results in the same Routine 
+
+4.gen_feat_comb: combine all different routines into one final result,
+will further be uploaded to coLAB for ML ALGORIHTM
+
 
 <img src='/images/RMG/RMG_HGR.gif'><br/>
 <img src='/images/RMG/setup.png'>  <br/>
